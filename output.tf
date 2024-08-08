@@ -1,15 +1,3 @@
-output "websiteendpoint" {
-    value=aws_s3_bucket.vijaybucket.website_endpoint
-  
-}
-
-output "ec2ami" {
-    value = aws_instance.nginxserver
-  
-}
-
-output "ec2ami2" {
-    value = aws_instance.terraforminstance
-  
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:534dcf3313a3d45d1ae31655b895dc51c2bc30fee33fba5a253eb949c0586819
+size 230
