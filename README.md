@@ -1,7 +1,3 @@
-Sure! Here’s the complete text you can copy directly for your README file:
-
-markdown
-Copy code
 # AWS Infrastructure Automation with Terraform and Jenkins
 
 This repository contains a complete CI/CD pipeline for deploying an AWS infrastructure using Terraform and Jenkins. The setup includes S3 static website hosting and EC2 instances for running a web server.
@@ -25,13 +21,6 @@ The project automates the creation of the following AWS resources:
 - Load balancer for distributing traffic
 
 Jenkins is used to trigger the deployment and manage the CI/CD pipeline, ensuring that the infrastructure can be provisioned with ease.
-
-## Prerequisites
-
-- [Terraform](https://www.terraform.io/downloads.html)
-- [Jenkins](https://www.jenkins.io/doc/book/installing/)
-- AWS account with IAM permissions to create resources
-- AWS CLI configured with your credentials
 
 ## Setup
 
@@ -63,3 +52,6 @@ After deployment, the following outputs will be available:
 
 Website Endpoint for the S3 bucket
 EC2 Instance IDs for the created instances
+
+
+
